@@ -1,0 +1,60 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+
+.Projeto{
+
+    margin-top: 20px;
+    font-size: 35px;
+
+}
+
+.laranja{
+
+    color: rgb(255, 94, 0);
+
+}
+    
+.cabecalho{
+    
+    width: 100%;
+    height: 80px;
+    background: black;
+    padding-top: 30px;
+    color: white;
+    
+}
+
+.caixa{
+
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 100px;
+            
+}
+    
+    ul{
+    
+    list-style: none;
+    
+    }
+    
+    nav{
+    
+    float: right;
+    color: white;
+
+    }
+
+    ul li{
+
+    display: inline;
+    margin-left: 30px;
+
+
+    }

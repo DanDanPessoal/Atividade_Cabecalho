@@ -38,23 +38,121 @@ body{
             
 }
     
-    ul{
+ul{
     
     list-style: none;
     
     }
     
-    nav{
+nav{
     
     float: right;
     color: white;
 
     }
 
-    ul li{
+ul li{
 
     display: inline;
     margin-left: 30px;
 
 
     }
+
+.barra{
+
+background-color: black;
+color:white;
+font-size: 30px;
+height: 75px;
+padding-top: 30px;
+
+}
+.barra .receba{
+
+float: left;
+
+}
+
+.barra .caixa2{
+
+float: right;
+
+}
+
+.caixa2 .but{
+
+background-color: rgb(255, 94, 0);
+
+}
+
+.linha{
+
+height: 2px;
+background-color: rgb(255, 94, 0);
+
+}
+
+.container{
+
+background-image: url(team.png);
+min-height: 400px;
+
+}
+
+.caixa h1{
+
+color: white;
+margin: 0;
+text-align: center;
+padding-top: 150px;
+
+}
+
+.caixa h4{
+
+color: white;
+margin: 0;
+text-align: center;
+
+}
+
+.imagens{
+
+min-height: 300px;
+
+}
+
+.imagens2 img{
+
+height: 100px;
+padding-top: 60px;
+
+}
+
+.imagens2 .img{
+
+float: left;
+text-align: center;
+margin-left: 20px;
+
+}
+
+.imagens2{
+
+max-width: 63%;
+height: 300px;
+margin: 0 auto;
+
+}
+
+.rodape{
+
+height: 60px;
+width: 100%;
+background-color:  rgb(255, 94, 0);
+color: white;
+text-align: center;
+padding-top: 50px;
+
+}

@@ -1,0 +1,54 @@
+body{
+
+background-color: rgba(238, 238, 238, 0.973);
+
+}
+
+.box-cadastro-geral .box-form{
+
+float: left;
+height: 50%;
+margin: 30px 0 0 94px;
+
+}
+
+.box-cadastro-geral .box-form b{
+
+font-size: 32px;
+
+}
+
+.box-cadastro-geral .box-img{
+
+float: right;
+margin: 40px 70px 0 0;
+
+}
+
+.box-cadastro-geral .box-form .input{
+
+height: 28px;
+width: 400px;
+margin-bottom: 20px;
+padding-left: 30px;
+border-radius: 3px;
+border: #cccccc solid 1px;
+
+}
+
+.box-cadastro-geral .box-form .nome-input{
+
+font-size: 20px;
+
+}
+
+.box-cadastro-geral .box-form .but_cadastrar{
+
+background-color: rgb(15, 155, 15);
+color: white;
+height: 35px;
+width: 100px;
+border-radius: 7px;
+border: none;
+
+}

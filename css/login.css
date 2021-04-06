@@ -1,0 +1,68 @@
+.pag-login{
+
+    background-color: #ecf0f1;
+    text-align: center;
+    padding: 50px 0;
+
+}
+
+.box-login{
+
+display: inline-block;
+background-color: white;
+box-shadow: 3px 3px 3px 2px #ccc;
+padding: 60px 20px 0px 20px;
+border-radius: 20px;
+width: 400px;
+
+}
+
+.pag-login .input-padrao{
+
+    width: 50%;
+    display: inline-block;
+    height: 25px;
+    margin-bottom: 20px;
+
+}
+
+.but_green{
+
+    color: white;
+    background-color: green;
+    margin: 20px 0 50px 0;
+    border: 0;
+    padding: 10px 20px;
+
+    border-radius: 5px;
+    float: left;
+    cursor: pointer;
+
+}
+
+.pag-login .but_green{
+
+    display: block;
+    float: none;
+    margin: auto;
+    margin-bottom: 60px;
+
+}
+
+.pag-login h1{
+
+    margin: 0 0 30px 0;
+
+}
+
+.rodape2{
+
+    height: 60px;
+    width: 100%;
+    background-color:  rgb(255, 94, 0);
+    color: white;
+    text-align: center;
+    padding: 50px 0 100px 0 ;
+    font-size: 20px;
+    
+    }

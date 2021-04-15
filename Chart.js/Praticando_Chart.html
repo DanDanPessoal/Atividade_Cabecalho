@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.2/chart.min.js"
+        integrity="sha512-dnUg2JxjlVoXHVdSMWDYm2Y5xcIrJg1N+juOuRi0yLVkku/g26rwHwysJDAMwahaDfRpr1AxFz43ktuMPr/l1A=="
+        crossorigin="anonymous">
+        </script>
+    <title>Praticando Chart.Js</title>
+
+</head>
+
+<body>
+
+    <div style="height: 400px; width: 400px;">
+
+        <canvas id="myChart"></canvas>
+
+    </div>
+    
+</body>
+
+</html>
+
+<script>
+
+const data = {
+  labels: [
+    'Red',
+    'Green',
+    'Yellow',
+    'Grey',
+    'Blue'
+  ],
+  datasets: [{
+    data: [11, 16, 7, 3, 14],
+    backgroundColor: [
+      'rgba(255, 99, 132, 0.3)',
+      'rgba(75, 192, 192, 0.3)',
+      'rgba(255, 205, 86, 0.3)',
+      'rgba(201, 203, 207, 0.3)',
+      'rgba(54, 162, 235, 0.3)'
+    ],
+
+    //tamanho da borda quando você passa por cima de um 'pedaço' do grafico
+    hoverBorderWidth: 10,
+
+    //cor da borda quando você passa por cima de um, ou diferentes, 'pedaço' do grafico
+    hoverBorderColor: [
+
+      'rgba(255, 99, 132, 0.9)',
+      'rgba(75, 192, 192, 0.9)',
+      'rgba(255, 205, 86, 0.9)',
+      'rgba(201, 203, 207, 0.9)',
+      'rgba(54, 162, 235, 0.9)'
+      
+    ],
+
+    hoverBackgroundColor: [
+
+    'rgba(255, 99, 132, 0.7)',
+    'rgba(75, 192, 192, 0.7)',
+    'rgba(255, 205, 86, 0.7)',
+    'rgba(201, 203, 207, 0.7)',
+    'rgba(54, 162, 235, 0.7)'
+
+],
+
+    // É parecido com o padding
+    // ,clip: {left: 5, top: -5, right: -100, bottom: -100}
+
+  }]
+};
+
+    var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+  type: 'polarArea',
+  data: data,
+  options: {},
+  
+});
+
+
+
+// recomendado pela documentação mas não funciona :/
+
+// const config = {
+//   type: 'polarArea',
+//   data: data,
+//   options: {}
+// };
+
+// recomendado pela documentação, mas não faz diferença :/
+
+// module.exports = {
+//   actions: [],
+//   config: config,
+// };
+
+
+</script>
